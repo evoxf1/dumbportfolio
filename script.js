@@ -49,7 +49,7 @@ function showTextNode(textNodeIndex) {
       clearInterval(window.animationInterval);
       toggleButtonState(false);
     }
-  }, );
+  },20 );
 }
 
 function selectOption(option) {
